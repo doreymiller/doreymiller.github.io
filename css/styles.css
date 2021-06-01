@@ -122,6 +122,21 @@ article {
   width: 200px;
 }
 
+#ekko_container {
+  /* display: flex; */
+  margin-top: 50px;
+  /* justify-content: space-between; */
+}
+
+#ekko_diagram {
+  max-width: 700px;
+  margin-top: 50px;
+}
+
+#ekko_diagram img {
+  width: 100%;
+}
+
 #about_me {
   background-color: #f8f8f8;
 }
