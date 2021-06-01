@@ -52,6 +52,10 @@ header {
   top: 0;
 }
 
+h1 {
+  font-size: 26px;
+}
+
 nav {
   border-bottom: 1px solid;
   border-color: var(--gray-300);
@@ -95,6 +99,7 @@ article {
 }
 
 #splash {
+  padding: 50px 0;
   background-color: #f8f8f8;
 }
 
