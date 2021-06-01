@@ -48,7 +48,7 @@ header {
   z-index: 100;
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding: 0 20px;
   top: 0;
 }
 
@@ -67,12 +67,6 @@ nav ul {
 
 nav ul li {
   padding: 5px 10px;
-}
-
-main {
-  /* margin: 200px 20px; */
-  /* margin-left: 20px; */
-  /* padding: 20px; */
 }
 
 h1 {
@@ -97,18 +91,11 @@ article {
   line-height: 2rem;
   max-width: 840px;
   min-width: 300px;
-  padding: 150px 20px;
+  padding: 150px 50px;
 }
 
 #splash {
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 50px auto; */
   background-color: #f8f8f8;
-  /* padding: 0 20px; */
-  /* margin-top: 100px;
-  margin-bottom: 150px; */
 }
 
 #splash article {
@@ -117,7 +104,6 @@ article {
 }
 
 #headshot {
-  /* padding: 0 20px; */
   margin-bottom: 50px;
 }
 #headshot img {
@@ -126,35 +112,21 @@ article {
   border-radius: 50%;
 }
 
-#ekko {
-  /* display: flex;
-  align-items: flex-start;
-  justify-content: space-between; */
-  /* margin-top: 100px;
-  margin-bottom: 150px; */
-}
-
 #ekko_icon {
   margin-bottom: 50px;
 }
 
 #ekko_icon img {
   width: 200px;
-  /* padding-top: 170px; */
 }
 
 #about_me {
   background-color: #f8f8f8;
 }
 
-#about_me article {
-  /* max-width: 100%; */
-}
-
 #connect h1 {
   display: block;
   margin: 0 auto 50px auto;
-  /* padding: 20px; */
   text-align: center;
 }
 
