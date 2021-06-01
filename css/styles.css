@@ -1,0 +1,173 @@
+:root {
+  --blue: #334252;
+  --teal: #00bdaa;
+  --teal-light: rgba(0, 189, 170, 0.2);
+  --pink: #ff895d;
+  --light-gray: #e5e7eb;
+  --gray-300: rgb(209, 213, 219);
+  --gray-400: rgb(156, 163, 175);
+  --gray-500: rgb(107, 114, 128);
+  --gray-700: rgb(55, 65, 81);
+  --gray-900: rgb(17, 24, 39);
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat-Regular");
+  src: url("./fonts/montserrat/Montserrat-Regular.ttf") format("tff");
+}
+
+@font-face {
+  font-family: "Century Gothic";
+  src: local("Century Gothic");
+  src: url("./fonts/centurygothic/GOTHICB.TTF") format("tff");
+}
+
+html {
+  /* background-color: #f8f8f8; */
+}
+
+body {
+  background-color: white;
+  font-family: "Montserrat", Arial, sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  /* max-width: 840px; */
+  background-color: white;
+  height: 100vh;
+}
+
+header {
+  display: block;
+  background-color: white;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  /* max-width: 840px; */
+  z-index: 100;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  top: 0;
+}
+
+nav {
+  border-bottom: 1px solid;
+  border-color: var(--gray-300);
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 5px 10px;
+}
+
+main {
+  /* margin: 200px 20px; */
+  /* margin-left: 20px; */
+  /* padding: 20px; */
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--teal);
+  font-weight: bold;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+article {
+  font-size: 20px;
+  line-height: 2rem;
+  max-width: 840px;
+  min-width: 300px;
+  padding: 150px 20px;
+}
+
+#splash {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto; */
+  background-color: #f8f8f8;
+  /* padding: 0 20px; */
+  /* margin-top: 100px;
+  margin-bottom: 150px; */
+}
+
+#splash article {
+  max-width: 550px;
+  min-width: 300px;
+}
+
+#headshot {
+  /* padding: 0 20px; */
+  margin-bottom: 50px;
+}
+#headshot img {
+  width: 200px;
+  border: 2px solid;
+  border-radius: 50%;
+}
+
+#ekko {
+  /* display: flex;
+  align-items: flex-start;
+  justify-content: space-between; */
+  /* margin-top: 100px;
+  margin-bottom: 150px; */
+}
+
+#ekko_icon {
+  margin-bottom: 50px;
+}
+
+#ekko_icon img {
+  width: 200px;
+  /* padding-top: 170px; */
+}
+
+#about_me {
+  background-color: #f8f8f8;
+}
+
+#about_me article {
+  /* max-width: 100%; */
+}
+
+#connect h1 {
+  display: block;
+  margin: 0 auto 50px auto;
+  /* padding: 20px; */
+  text-align: center;
+}
+
+#connect article ul {
+  max-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+#connect ul li {
+  padding: 5px 10px;
+}
