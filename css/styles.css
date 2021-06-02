@@ -77,6 +77,10 @@ h1 {
   margin-bottom: 50px;
 }
 
+h3 {
+  margin-bottom: 35px;
+}
+
 a {
   text-decoration: none;
   color: var(--teal);
@@ -93,7 +97,7 @@ section {
 article {
   font-size: 16px;
   line-height: 2rem;
-  max-width: 840px;
+  max-width: 750px;
   min-width: 300px;
   padding: 150px 50px;
 }
@@ -104,7 +108,7 @@ article {
 }
 
 #splash article {
-  max-width: 550px;
+  max-width: 450px;
   min-width: 300px;
 }
 
@@ -124,13 +128,13 @@ article {
 
 #ekko_container {
   /* display: flex; */
-  margin-top: 50px;
+  margin-top: 75px;
   /* justify-content: space-between; */
 }
 
 #ekko_diagram {
   max-width: 700px;
-  margin-top: 50px;
+  margin-top: 75px;
 }
 
 #ekko_diagram img {
