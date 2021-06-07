@@ -1,7 +1,7 @@
 :root {
   --blue: #334252;
   --teal: #00bdaa;
-  --dark-teal: rgb(3, 124, 185);
+  --dark-teal: #047065;
   --teal-light: rgba(0, 189, 170, 0.2);
   --pink: #ff895d;
   --light-gray: #e5e7eb;
@@ -91,8 +91,9 @@ a {
 }
 
 a:hover {
-  background-color: var(--teal);
-  color: white;
+  /* background-color: var(--teal); */
+  /* color: white; */
+  color: var(--dark-teal);
 }
 
 section {
@@ -111,6 +112,7 @@ article {
 }
 
 #splash {
+  display: flex;
   padding: 50px 0;
   background-color: #f8f8f8;
 }
