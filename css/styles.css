@@ -143,13 +143,20 @@ article {
   /* justify-content: space-between; */
 }
 
-#ekko_diagram,
+#ekko_diagram {
+  max-width: 700px;
+  margin-top: 75px;
+}
+
 #ekko_cli {
   max-width: 700px;
   margin-top: 75px;
 }
 
-#ekko_diagram img,
+#ekko_diagram img {
+  width: 100%;
+}
+
 #ekko_cli img {
   width: 100%;
 }
