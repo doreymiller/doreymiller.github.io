@@ -172,3 +172,12 @@ article {
 #connect ul li {
   padding: 5px 10px;
 }
+
+@media (max-width: 640px) {
+  #splash {
+    flex-wrap: wrap;
+  }
+  #splash article {
+    padding-top: 75px;
+  }
+}
